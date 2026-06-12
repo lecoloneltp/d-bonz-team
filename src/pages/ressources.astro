@@ -1,0 +1,72 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+import { YouTube } from "astro-embed";
+
+const videos = [
+  {
+    id: "QQFjoVGX62c&t=45s",
+    title: "L'ambiance sur le serveur FFA",
+  },
+  {
+    id: "rD5wsoqBkG0",
+    title: "La vidéo de la réunion chez Belzé sur le parking",
+  },
+  {
+    id: "1Qa5G0htTeY",
+    title: "Une vidéo de la team, mais on était déjà sur CS:GO",
+  },
+];
+---
+<MainLayout title="Ressources vidéos">
+  <main class="page">
+    <h1>Ressources vidéos</h1>
+
+    <section class="grid">
+      {videos.map((video) => (
+        <article class="card">
+          <h2 class="title">{video.title}</h2>
+          <YouTube id={video.id} />
+        </article>
+      ))}
+    </section>
+  </main>
+</MainLayout>
+
+<style>
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .card {
+    background: #111;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0.75rem;
+    color: white;
+  }
+
+  .title {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+  }
+
+  iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+  }
+</style>

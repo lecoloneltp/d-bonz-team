@@ -1,0 +1,15 @@
+---
+title: "Des débuts difficiles"
+description: "L'arrivée des [MDR] chez les D-BonZ"
+---
+C’est précisément le 1er septembre 2005 que Le Colonel (celui écrit ces lignes) commença à squatter régulièrement le serveur ffa des D-BonZ. Sans doute au lendemain d’un retour de vacances. Parfois rejoint par $pyx sur le serveur, l’idée de créer notre propre team pour le fun germa assez rapidement. Les MDR étaient nés (Mort De Rire, car à l'époque nous voir jouer c'était vraiment "mort de rire" ! – On avait pas un gros niveau mais on a progressé par la suite). Il est possible que d’autres personnes fréquentant nos LAN se soient greffées à la team MDR, je pense notamment à Willos et Ricdan qui nous ont peut-être rejoint nous à quelques occasions, mais ça n’a dû être qu’occasionnel. Très vite, seuls $pyx et Le Colonel vont continuer à jouer régulièrement à Counter-Strike Source et ils commencèrent à sympathiser avec les D-BonZ.
+
+De septembre à novembre la team recruta de nouveaux joueurs. Tout d'abord Richy et Agone firent leurs valises pour manque de présence dans la team. Burp commença à disparaître progressivement de la circulation bien que toujours officiellement dans la team. Plusieurs nouveaux joueurs furent recrutés en particulier Bizon et WAAAARTY qui étaient des potes de Maki, puis Chickenfight (Je crois qu’il y avait Krav aussi à ce moment là mais j’ai un gros doute là dessus). Enfin, les D-BonZ recrutèrent des anciens de la team Ghost : BeAware, Pilz et Zickers, des joueurs très skillés et expérimentés. Grâce à ces recrues la team s’est mise à faire régulièrement des wars notamment sur ClanFrance qui fut le premier ladder sur lequel la team fit une incursion.
+
+Pour compléter le roster ils recrutèrent @ndre@, la fameuse petite amie de Liquid, le leader des Dreams, ce que je ne savais pas su à l’époque. D’ailleurs, pour être honnête, il m’est arrivé de jouer avec elle en ffa et je croyais que c’était un enfant à cause la voix qui était pas vraiment au point sur le jeu. La voix était plus claire sur TS, mais en réalité j'ai pu l'entendre plusieurs années après car, à cette époque, les MDR ($pyx et le Colonel) ne squattaient pas le TS. J’ai discuté avec elle de vive voix. Elle avait fondé sa propre team et on était un peu resté en contact.
+
+Mais à cette époque des D-BonZ, vous l’aurez compris Joker gérait la team comme un dictateur. Par exemple un gars du nom Séb avait été recruté et viré au bout d’une semaine par Joker. @ndre@, quant-à elle, quitta rapidement la team suite à une nouvelle embrouille entre les Dreams et notre leader de l'époque Joker.
+
+C’est pendant cette période que $pyx et Le Colonel firent leurs débuts en war. Je me souviens qu’il manquait 2 gars et Joker nous avait demandé de faire le nombre. Le mec avait gueulé pendant toute la war... Première expérience pas très convainquante, mais on s’entendait bien avec le reste de la team. Ça ne nous a pas vraiment freiner.
+
+A noter également qu'à cette époque les D-BonZ donnait un coup de main à une autre team naissante, les gA, en proposant un espace sur le site et le forum des D-BonZ.

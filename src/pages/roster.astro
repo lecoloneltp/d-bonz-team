@@ -1,0 +1,111 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+
+const anciensMembres = [
+  "Meys",
+  "Joker",
+  "Gitmais",
+  "Burp",
+  "Insane",
+  "Emouchet",
+  "Agone",
+  "DonMakisard",
+  "Richy",
+  "Bizon",
+  "WAAAARTY",
+  "Chickenfight",
+  "Krav",
+  "BeAware",
+  "Pilz",
+  "Zickers",
+  "@Andre@",
+  "P@p@sse",
+  "Belzébuth",
+  "BenSpeirs",
+  "Greg.be",
+  "HommeTouTnu",
+  "Grafrek",
+  "Didi",
+  "Bastar",
+  "Envy57",
+  "Ellesar",
+  "Teken",
+  "Gangdeslapinsmorts",
+  "Noeyes",
+  "Le Colonel",
+  "ManO",
+  "Weakshy",
+  "Afeck.be",
+  "Dalux",
+  "Unamed",
+  "Pepes",
+  "Cry",
+  "Noname",
+  "Précision",
+  "DavoO",
+  "Dr4ke",
+  "ReZer",
+  "Firefighter",
+  "Steak",
+  "Ultrakiller",
+  "Bistoufly",
+  "DaftTitan",
+  "Tiguan",
+  "Médine",
+  "Tequilaaaa",
+  "SauceSamourai",
+  "Athena",
+  "GirlZ",
+  "Oxy",
+  "Jupiler",
+  "Vengeur",
+  "Anarkia",
+  "Gayzmo",
+  "GhostDog",
+  "Stickmou",
+  "Kisscool",
+  "A2tag",
+  "Jos",
+
+];
+---
+
+<MainLayout title="Roster">
+  <main class="roster">
+    <h1>Anciens membres</h1>
+
+    <ul>
+      {anciensMembres.map((membre) => (
+        <li>{membre}</li>
+      ))}
+    </ul>
+  </main>
+</MainLayout>
+
+<style>
+  .roster {
+    max-width: 700px;
+    margin: 4rem auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+  }
+
+  li {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+</style>

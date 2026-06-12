@@ -1,0 +1,46 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+const articles = Object.values(
+  import.meta.glob('../content/histoire/*.md', {
+    eager: true,
+  })
+).sort((a: any, b: any) => {
+  const numA = parseInt(a.file.match(/partie(\d+)/)?.[1] ?? 0);
+  const numB = parseInt(b.file.match(/partie(\d+)/)?.[1] ?? 0);
+
+  return numA - numB;
+});
+
+console.log(articles);
+console.log("TOTAL :", articles.length);
+---
+
+<MainLayout title="Legacy Team">
+
+<div class="grid gap-8 mt-12">
+  {
+    articles.map((article: any) => {
+      const slug = article.file
+        .split('/')
+        .pop()
+        .replace('.md', '');
+
+      return (
+        <a
+          href={`/histoire/${slug}`}
+          class="group block bg-zinc-900/80 hover:bg-zinc-900 transition border border-zinc-800 hover:border-zinc-700 rounded-2xl p-8"
+        >
+          <h2 class="text-2xl font-bold group-hover:text-white">
+            {article.frontmatter.title}
+          </h2>
+
+          <p class="text-zinc-400 mt-3 leading-relaxed">
+            {article.frontmatter.description}
+          </p>
+        </a>
+      );
+    })
+  }
+</div>
+</MainLayout>

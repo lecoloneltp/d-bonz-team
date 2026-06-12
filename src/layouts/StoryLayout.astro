@@ -1,0 +1,35 @@
+---
+import MainLayout from './MainLayout.astro';
+
+const {
+  title,
+  years,
+  cover,
+} = Astro.props;
+---
+
+<MainLayout title={title}>
+
+  <section class="mb-16">
+
+    <img
+      src={cover}
+      alt={title}
+      class="w-full h-96 object-cover rounded-3xl mb-10"
+    />
+
+    <p class="text-orange-400 uppercase tracking-widest">
+      {years}
+    </p>
+
+    <h1 class="text-6xl font-black mt-4">
+      {title}
+    </h1>
+
+  </section>
+
+  <article class="prose prose-invert max-w-4xl">
+    <slot />
+  </article>
+
+</MainLayout>
