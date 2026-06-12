@@ -1,6 +1,6 @@
 ---
 title: "L'avant D-BonZ"
-description: "ça parle de moi donc c’est pas encore le début de l’histoire des D-BonZ."
+description: "ça parle de moi (Le Colonel) donc c’est pas encore le début de l’histoire des D-BonZ."
 ---
 C’est ce qui se passe avant le début de l’histoire des D-BonZ. J’ai commencé à jouer au jeux vidéos dans les années 80, j’ai grandi avec et je ne me suis jamais vraiment arrêté de jouer, même si ces dernières années j’ai beaucoup ralenti le rythme, en particulier avec l’apparition des jeux sur mobile où les joueurs ont tendance à se casualiser. Et puis faut pas se mentir, il y a l’âge aussi.
 
