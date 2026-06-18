@@ -1,11 +1,20 @@
-<nav class="border-b border-zinc-800 bg-black/50 backdrop-blur sticky top-0 z-50">
-  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+<nav class="relative border-b border-zinc-800 sticky top-0 z-50 overflow-hidden">
+
+  <!-- Background banner -->
+  <div class="absolute inset-0 bg-[url('/images/bannier-counter-strike.webp')] bg-cover bg-center"></div>
+
+  <!-- Overlay (pour lisibilité) -->
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <!-- Content -->
+  <div class="relative max-w-6xl mx-auto px-6 py-4 flex items-center justify-between backdrop-blur-sm">
+    
     <!-- Logo -->
     <a href="/" class="text-xl font-bold tracking-widest uppercase">
       D-BONZ TEAM LEGACY
     </a>
 
-    <!-- Menu de navigation -->
+    <!-- Menu -->
     <div class="flex gap-6 text-sm uppercase tracking-wide">
       <a href="/histoire">Histoire</a>
       <a href="/roster">Roster</a>
