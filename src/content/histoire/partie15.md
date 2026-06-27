@@ -2,7 +2,7 @@
 title: "2009"
 description: "Des passages et une fusion avec les ITS"
 ---
-Le début de l'année 2009 fut surtout marqué par beaucoup de passages dans la team et plusieurs changements de Line-up. A la fin du printemps 2009, la Line-up 2 fut dissoute, puis la plupart des joueurs constituant alors la L1 partirent les uns après les autres (Bastar, NoName et Cry). La Lineup 3 constituée essentiellement de joueurs FFA se disloqua elle aussi.
+Le début de l'année 2009 fut surtout marqué par beaucoup de passages dans la team et plusieurs changements de Line-up. A la fin du printemps 2009, la Line-up 2 fut dissoute, puis la plupart des joueurs constituant alors la L1 partirent les uns après les autres (Bastar, NoName et Cry). La Line-up 3, constituée essentiellement de joueurs FFA, se disloqua elle aussi.
 Malgré de nombreux passages, on notera l'arrivée de certains « bons gars », notamment Gayzmo.
 
 Je pense que pendant cette période je n’ai pas tout noté ce qui se passait, mes souvenirs sont un peu limités...

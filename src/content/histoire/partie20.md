@@ -8,4 +8,4 @@ Sur la fin de la team, j’avais créé un serveur discord pour que les joueurs 
 
 Il y a une page Facebook que je gérais aussi, mais je ne vais plus sur Facebook depuis des années. Elle existe toujours. Elle n’est plus alimentée. On avait un compte twitter aussi. Je dois avoir encore les accès, mais personne n’interagissait avec car à l’époque aucun des membres de la team n’utilisait ce réseau social.
 
-Voilà la fin de l'aventure D-BonZ. Un riche aventure de plus de 10 ans. Merci à tous ceux qui sont passés dans la team et qui s'y sont amusés.
+Voilà la fin de l'aventure D-BonZ. Une riche aventure de plus de 10 ans. Merci à tous ceux qui sont passés dans la team et qui s'y sont amusés.
