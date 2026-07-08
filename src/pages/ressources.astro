@@ -1,12 +1,11 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 
-import { YouTube } from "astro-embed";
-
 const videos = [
   {
-    id: "QQFjoVGX62c&t=45s",
+    id: "QQFjoVGX62c",
     title: "L'ambiance sur le serveur FFA",
+    start: "45",
   },
   {
     id: "rD5wsoqBkG0",
@@ -18,6 +17,7 @@ const videos = [
   },
 ];
 ---
+
 <MainLayout title="Ressources vidéos">
   <main class="page">
     <h1>Ressources vidéos</h1>
@@ -26,7 +26,13 @@ const videos = [
       {videos.map((video) => (
         <article class="card">
           <h2 class="title">{video.title}</h2>
-          <YouTube id={video.id} />
+
+          <iframe
+            src={`https://www.youtube.com/embed/${video.id}${video.start ? `?start=${video.start}` : ''}`}
+            title={video.title}
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
         </article>
       ))}
     </section>
@@ -67,6 +73,7 @@ const videos = [
   iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
+    border: 0;
     border-radius: 10px;
   }
 </style>
