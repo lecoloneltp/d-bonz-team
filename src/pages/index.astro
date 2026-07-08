@@ -2,14 +2,77 @@
 import MainLayout from '../layouts/MainLayout.astro';
 ---
 
-<MainLayout title="Legacy Team">
+<MainLayout title="Accueil">
 
-  <section class="mt-24 grid md:grid-cols-2 gap-6">
-    <div class="bg-zinc-900 p-6 rounded-2xl border border-zinc-800">
-      <h3 class="text-xl font-bold">Qui étions nous ?</h3>
-      <p class="text-zinc-400 mt-4">La team D-BonZ était une team qui a principalement évolué sur le jeu Counter-Strike : Source. La team a existé de 2005 à environ 2015. Les D-BonZ étaient une team fun, mais compétitive. Ce site a pour but de laisser une trace en racontant l’histoire de la team.</p>
-    </div>
+  <!-- Hero -->
+  <section class="text-center py-20">
+    <h1 class="text-5xl font-bold">
+      D-BonZ Team
+    </h1>
 
+    <p class="mt-6 max-w-3xl mx-auto text-xl text-zinc-300">
+      Une équipe Counter-Strike: Source qui a évolué de 2005 à 2015, réunissant des joueurs passionnés dans une ambiance à la fois conviviale et compétitive.
+    </p>
+
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a
+        href="/histoire"
+        class="rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white transition hover:bg-orange-600"
+      >
+        Découvrir l'histoire
+      </a>
+
+      <a
+        href="/roster"
+        class="rounded-lg border border-zinc-700 px-6 py-3 font-semibold transition hover:bg-zinc-800"
+      >
+        Voir le roster
+      </a>
     </div>
   </section>
+
+  <!-- Présentation -->
+  <section class="max-w-4xl mx-auto">
+    <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
+      <h2 class="text-2xl font-bold">
+        Qui étaient les D-BonZ ?
+      </h2>
+
+      <p class="text-zinc-400 mt-5">
+        Fondée en 2005, la team D-BonZ a principalement évolué sur Counter-Strike: Source.
+      </p>
+
+      <p class="text-zinc-400 mt-4">
+        Pendant près de dix ans, elle a rassemblé des joueurs partageant la même passion du jeu, dans un esprit à la fois fun et compétitif.
+      </p>
+
+      <p class="text-zinc-400 mt-4">
+        Ce site a pour objectif de préserver cette aventure en retraçant son histoire, ses membres, ses souvenirs et les ressources qui ont marqué cette époque.
+      </p>
+    </div>
+  </section>
+
+  <!-- Chiffres clés -->
+  <section class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
+    <div class="bg-zinc-900 rounded-2xl p-6 text-center border border-zinc-800">
+      <div class="text-3xl font-bold text-orange-500">2005</div>
+      <p class="mt-2 text-zinc-400">Création</p>
+    </div>
+
+    <div class="bg-zinc-900 rounded-2xl p-6 text-center border border-zinc-800">
+      <div class="text-3xl font-bold text-orange-500">≈10 ans</div>
+      <p class="mt-2 text-zinc-400">d'activité</p>
+    </div>
+
+    <div class="bg-zinc-900 rounded-2xl p-6 text-center border border-zinc-800">
+      <div class="text-3xl font-bold text-orange-500">CSS</div>
+      <p class="mt-2 text-zinc-400">Jeu principal</p>
+    </div>
+
+    <div class="bg-zinc-900 rounded-2xl p-6 text-center border border-zinc-800">
+      <div class="text-3xl font-bold text-orange-500">∞</div>
+      <p class="mt-2 text-zinc-400">Souvenirs</p>
+    </div>
+  </section>
+
 </MainLayout>
