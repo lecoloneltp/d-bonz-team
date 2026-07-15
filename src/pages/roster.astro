@@ -29,7 +29,7 @@ const anciensMembres = [
   "Bastar",
   "Envy57",
   "Ellesar",
-  "Teken",
+  "Tekend",
   "Gangdeslapinsmorts",
   "Noeyes",
   "Le Colonel",
@@ -66,46 +66,127 @@ const anciensMembres = [
   "Kisscool",
   "A2tag",
   "Jos",
-
 ];
+
+const nombre = anciensMembres.length;
 ---
 
 <MainLayout title="Roster">
   <main class="roster">
-    <h1>Anciens membres</h1>
 
-    <ul>
+    <h1>Le roster D-BonZ</h1>
+
+    <p class="intro">
+      Au fil des années, plus de <strong>{nombre} joueurs</strong> ont porté le
+      tag D-BonZ. Certains sont restés quelques semaines, d'autres plusieurs
+      années, mais chacun a participé à écrire une partie de l'histoire de la
+      team.
+    </p>
+
+    <div class="stats">
+      <div>
+        <span>{nombre}</span>
+        <small>Joueurs</small>
+      </div>
+
+      <div>
+        <span>2005–2015</span>
+        <small>Période</small>
+      </div>
+
+      <div>
+        <span>CS:S</span>
+        <small>Jeu principal</small>
+      </div>
+    </div>
+
+    <div class="liste">
       {anciensMembres.map((membre) => (
-        <li>{membre}</li>
+        <div class="carte">
+          <div class="icone">👤</div>
+          <div class="pseudo">{membre}</div>
+        </div>
       ))}
-    </ul>
+    </div>
+
   </main>
 </MainLayout>
 
 <style>
-  .roster {
-    max-width: 700px;
-    margin: 4rem auto;
-    padding: 1rem;
-    text-align: center;
-  }
+.roster{
+    max-width:1100px;
+    margin:auto;
+    padding:4rem 1.5rem;
+}
 
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-  }
+h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:1rem;
+}
 
-  ul {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    gap: 1rem;
-  }
+.intro{
+    max-width:800px;
+    margin:0 auto 3rem;
+    text-align:center;
+    line-height:1.7;
+    color:#cfcfcf;
+}
 
-  li {
-    background: rgba(255, 255, 255, 0.08);
-    padding: 1rem;
-    border-radius: 10px;
-    font-size: 1.2rem;
-  }
+.stats{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1rem;
+    margin-bottom:3rem;
+}
+
+.stats div{
+    background:#181818;
+    border:1px solid #333;
+    border-radius:14px;
+    padding:1.5rem;
+    text-align:center;
+}
+
+.stats span{
+    display:block;
+    font-size:2rem;
+    font-weight:bold;
+    color:#fff;
+}
+
+.stats small{
+    color:#999;
+}
+
+.liste{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:1rem;
+}
+
+.carte{
+    background:#181818;
+    border:1px solid #2c2c2c;
+    border-radius:12px;
+    padding:1.2rem;
+    text-align:center;
+    transition:.2s;
+}
+
+.carte:hover{
+    transform:translateY(-4px);
+    border-color:#facc15;
+    background:#202020;
+}
+
+.icone{
+    font-size:1.8rem;
+    margin-bottom:.5rem;
+}
+
+.pseudo{
+    font-size:1.1rem;
+    font-weight:600;
+}
 </style>
